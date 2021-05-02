@@ -56,6 +56,7 @@ class MainActivity : AppCompatActivity() {
                         val adapter = RecyvlerAdapter(list as ArrayList<Bikes>)
 
                         //now adding the adapter to recyclerview
+                        
                         rv.adapter = adapter
 
                     }
@@ -86,6 +87,7 @@ class MainActivity : AppCompatActivity() {
 
 
     // data class to hold student instance
+    
     public data class Bikes(
         val name: String,
         val address: String,
@@ -95,6 +97,7 @@ class MainActivity : AppCompatActivity() {
 
 
     // parse json data
+    
     fun parseJson(data: String): List<Bikes>? {
         val list = mutableListOf<Bikes>()
 
