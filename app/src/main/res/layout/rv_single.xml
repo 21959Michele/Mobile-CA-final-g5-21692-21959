@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView android:layout_height="200dp"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="20dp"
+android:layout_margin="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="horizontal"
+    android:weightSum="10"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_weight="4.5"
+        android:layout_height="match_parent"
+        android:src="@drawable/bike"
+        android:layout_margin="10dp"/>
+
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_weight="5.5">
+        <TextView
+            android:id="@+id/name"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Name: name"
+            android:textColor="@color/black"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/address"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Address : address"
+            android:textColor="@color/black"
+            android:layout_weight="3"/>
+
+        <TextView
+            android:id="@+id/status"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Status: open"
+            android:textColor="@color/black"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/abikes"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Available Bikes : 12"
+            android:textColor="@color/black"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

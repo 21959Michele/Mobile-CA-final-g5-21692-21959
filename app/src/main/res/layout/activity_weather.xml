@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pb"
+        />
+
+    <ImageView
+        android:id="@+id/ivmain"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/cloud"
+        android:layout_weight="2"/>
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="City : Paris"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/clear"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Clear"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:textColor="@color/black"
+
+        android:id="@+id/clearSky"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="clear sky"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:textColor="@color/black"
+
+        android:id="@+id/temp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Tempartuare : 25 C"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:textColor="@color/black"
+
+        android:id="@+id/tempMin"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Temp Min : 25 C"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:textColor="@color/black"
+
+        android:id="@+id/tempMax"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Temp Max : 25 C"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:textColor="@color/black"
+
+        android:id="@+id/humidity"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Humidity : 69%"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_weight="1"/>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
