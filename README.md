@@ -10,7 +10,7 @@ John Rowley <br>
 ## Links
 GitHub Link:https://github.com/21959Michele/Mobile-CA-final-g5-21692-21959
 
-Figma Prototype Link: https://www.figma.com/file/M5gmVrNOCfGFQVVWbNyrcM/Mobile-Map-%26-Weather-App?node-id=18625%3A160
+Figma Prototype Link: https://www.figma.com/proto/M5gmVrNOCfGFQVVWbNyrcM/Mobile-Map-and-Weather-App?node-id=18625%3A160&scaling=scale-down&page-id=0%3A1
 
 Working Project YouTube Link:https://youtu.be/mx7ALtcMOYk
 
