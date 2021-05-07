@@ -1,3 +1,7 @@
+// Michele Sousa & Mubasher Zeb Khan
+
+// 21959 & 21694
+
 package com.app.bsc20920;
 
 import android.annotation.SuppressLint;
